@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/naoufal/react-native-payments.git", :tag => "#{s.version}" }
   s.source_files  = 'lib/ios/*.{h,m}'
   s.requires_arc = true
-
+  s.dependency         'React'
 end
